@@ -8,7 +8,7 @@
 $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
 
 # Inherit proprietary targets
-$(call inherit-product-if-exists, vendor/xiaomi/venus/venus-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/haydn/haydn-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \

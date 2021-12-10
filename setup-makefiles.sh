@@ -8,7 +8,7 @@
 set -e
 
 # Required!
-export DEVICE=venus
+export DEVICE=haydn
 export DEVICE_COMMON=sm8350-common
 export VENDOR=xiaomi
 
