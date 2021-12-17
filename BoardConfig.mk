@@ -15,8 +15,5 @@ DEVICE_PATH := device/xiaomi/haydn
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := haydn
 
-# HIDL
-ODM_MANIFEST_FILES := $(DEVICE_PATH)/manifest.xml
-
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := haydn
+TARGET_OTA_ASSERT_DEVICE := haydn,haydnin
