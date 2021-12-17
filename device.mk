@@ -10,6 +10,10 @@ $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
 # Inherit proprietary targets
 $(call inherit-product-if-exists, vendor/xiaomi/haydn/haydn-vendor.mk)
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
