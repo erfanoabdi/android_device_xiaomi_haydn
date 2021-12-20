@@ -15,5 +15,9 @@ DEVICE_PATH := device/xiaomi/haydn
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := haydn
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_haydn
+TARGET_RECOVERY_DEVICE_MODULES := init_haydn
+
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := haydn,haydnin
